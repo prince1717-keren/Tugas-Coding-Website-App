@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XOX Game - Bot Challenger</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>XOX Bot Challenger</h1>
+        
+        <div class="difficulty-selection">
+            <h2>Pilih Kesulitan Bot:</h2>
+            <div class="difficulty-buttons">
+                <button id="easy-btn" class="active">EASY</button>
+                <button id="medium-btn">MEDIUM</button>
+                <button id="hard-btn">HARD</button>
+            </div>
+            <p id="current-difficulty">Kesulitan Saat Ini: **EASY**</p>
+        </div>
+
+        <div id="game-container" class="game-container">
+            <div id="message">Pilih kesulitan dan klik kotak untuk memulai!</div>
+            <div class="board" id="board">
+                <div class="cell" data-index="0"></div>
+                <div class="cell" data-index="1"></div>
+                <div class="cell" data-index="2"></div>
+                <div class="cell" data-index="3"></div>
+                <div class="cell" data-index="4"></div>
+                <div class="cell" data-index="5"></div>
+                <div class="cell" data-index="6"></div>
+                <div class="cell" data-index="7"></div>
+                <div class="cell" data-index="8"></div>
+            </div>
+            <button id="reset-btn">Mulai Ulang</button>
+        </div>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
